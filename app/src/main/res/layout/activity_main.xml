@@ -140,23 +140,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/twentyMarginTop"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="addGoalTeamA"
             android:text="@string/goalTeamA"
-            android:onClick="addGoalTeamA"/>
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="addGoalTeamB"
             android:text="@string/goalTeamB"
-            android:onClick="addGoalTeamB"/>
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
@@ -164,23 +166,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/twentyMarginTop"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="addFaultTeamA"
             android:text="@string/faultTeamA"
-            android:onClick="addFaultTeamA"/>
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="addFaultTeamB"
             android:text="@string/faultTeamB"
-            android:onClick="addFaultTeamB"/>
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
@@ -190,7 +194,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/twentyMarginTop"
         android:gravity="center"
-        android:text="@string/resetGame"
-        android:onClick="reset"/>
+        android:onClick="reset"
+        android:text="@string/resetGame" />
 
 </LinearLayout>
