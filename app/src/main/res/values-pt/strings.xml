@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="header">Futebol</string>
+    <string name="teamA">Equipa A</string>
+    <string name="teamB">Equipa B</string>
+    <string name="score">Resultado</string>
+    <string name="fault">Faltas</string>
+    <string name="goalTeamA">Golo Equipa A</string>
+    <string name="goalTeamB">Golo Equipa B</string>
+    <string name="faultTeamA">Falta Equipa A!</string>
+    <string name="faultTeamB">Falta Equipa B!</string>
+    <string name="resetGame">Recomeçar Jogo!</string>
+</resources>

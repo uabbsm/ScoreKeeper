@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">ScoreKeeper</string>
+    <string name="app_name" translatable="false">ScoreKeeper</string>
     <string name="header">Football</string>
     <string name="teamA">Team A</string>
     <string name="teamB">Team B</string>
     <string name="score">Score</string>
     <string name="fault">Faults</string>
-    <string name="iniValue">0</string>
+    <string name="iniValue" translatable="false">0</string>
     <string name="goalTeamA">Goal Team A!</string>
     <string name="goalTeamB">Goal Team B!</string>
     <string name="faultTeamA">Team A Fault!</string>
