@@ -11,6 +11,9 @@ public class MainActivity extends AppCompatActivity {
     /**
      * vars for the team scores and faults
      */
+
+    // TODO: naming conventions
+    /* https://source.android.com/setup/contribute/code-style#follow-field-naming-conventions */
     private int scoreTeamA = 0;
     private int scoreTeamB = 0;
     private int faultsTeamA = 0;
@@ -113,7 +116,13 @@ public class MainActivity extends AppCompatActivity {
     public void addFaultTeamA(View view) {
         faultsTeamA = faultsTeamA + 1;
         displayFaultTeamA(faultsTeamA);
-
+        // TODO: SEPARAÇÃO DE CONCEITOS
+        /*
+        * public void onAddFaultTeamABtnClick(){
+        *   addFaultTeamA();
+        *   displayFaultTeamA(getFaultsTeamA());
+        * }
+        * */
     }
 
     /**
@@ -124,6 +133,12 @@ public class MainActivity extends AppCompatActivity {
     private void displayScoreTeamA(int score) {
         TextView scoreTeamAView = findViewById(R.id.team_a_score);
         scoreTeamAView.setText(String.valueOf(score));
+
+        // TODO: OPTIMIZAÇÃO DA INICIALIZAÇÃO DE VIEWS
+        /*
+        *   - Declarar como variável membro da classe
+        *   - Inicializar no OnCreate()
+        * */
     }
 
     /**
@@ -134,6 +149,7 @@ public class MainActivity extends AppCompatActivity {
     private void displayFaultTeamA(int fault) {
         TextView faultTeamAView = findViewById(R.id.team_a_fault);
         faultTeamAView.setText(String.valueOf(fault));
+        // TODO: SEPARAÇÃO DE CONCEITOS
     }
 
     /**

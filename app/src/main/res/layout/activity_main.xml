@@ -66,7 +66,7 @@
         android:layout_marginTop="@dimen/twentyMarginTop"
         android:orientation="horizontal">
 
-
+        <!-- TODO: naming conventions-->
         <TextView
             android:id="@+id/team_a_score"
             android:layout_width="wrap_content"
@@ -79,6 +79,7 @@
             android:textColor="@color/colorValues"
             android:textSize="@dimen/twentyTextSize" />
 
+        <!--TODO: paddings/margins e text sizes no dimens.xml -->
         <TextView
             android:id="@+id/team_b_score"
             android:layout_width="wrap_content"
